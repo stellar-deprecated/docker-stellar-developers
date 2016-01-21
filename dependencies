@@ -1,0 +1,9 @@
+#! /usr/bin/env bash
+
+# dependencies
+apt-get update
+apt-get install -y curl git
+
+npm install -q -g gulp bower http-server
+
+echo "\nDone installing dependencies...\n"

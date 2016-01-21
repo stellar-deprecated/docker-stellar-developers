@@ -1,0 +1,11 @@
+#! /usr/bin/env bash
+set -e
+
+git clone https://github.com/stellar/developers.git
+cd developers
+
+bower install -q --allow-root
+npm install -q
+gulp --pathPrefix=""
+
+echo "\nDone building documentation\n"
