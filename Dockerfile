@@ -1,4 +1,4 @@
-FROM node:4
+FROM node:5.5.0
 
 MAINTAINER Scott Fleckenstein <scott@stellar.org>
 
